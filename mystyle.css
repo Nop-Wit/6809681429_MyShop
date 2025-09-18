@@ -1,0 +1,200 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.aboutus {
+    background-color: #f0f0f0;
+}
+
+.aboutus-con {
+    display: flex;
+}
+
+.aboutus-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.aboutus h3 {
+    font-size: 2rem;
+}
+
+.aboutus-info p {
+    margin: 1rem 0;
+}
+
+.aboutus-info .aboutus-btn {
+    display: inline-block;
+    background-color: #66CCFF;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.aboutus-img img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.video {
+    justify-content: center;
+    padding: 2rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.products-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    padding-inline: 2rem;
+}
+
+.products-title {
+    margin: 2rem 0;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.products-item {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.products-item img {
+    width: 100%;
+}
+
+.products-item h4 {
+    margin-top: 0.5rem;
+}
+
+.products-item p {
+    margin: 1rem 0;
+}
+
+.products-item .buy-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reference {
+    color: navy;
+    display: flex;
+    justify-content: right;
+    font-size: 13px;
+    margin: 0;
+}
+
+.products-desc {
+    font-size: 14px;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.info-title {
+    color: red;
+}
+
+.latest {
+    margin-bottom: 1rem;
+}
+
+.warranty {
+    margin-bottom: 1rem;
+}
+
+.warranty-desc {
+    font-size: 15px;
+}
+
+.contact {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+}
