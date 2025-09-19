@@ -197,7 +197,11 @@ nav {
     margin-top: 0.5rem;
 }
 
-.products-item p {
+/* .products-item p {
+    margin: 1rem 0;
+} */
+
+.products-item .price {
     margin: 1rem 0;
 }
 
@@ -208,6 +212,11 @@ nav {
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.desc-name {
+    font-size: 10px;
+    color: lightslategrey;
 }
 
 .discount {
@@ -225,6 +234,7 @@ nav {
 
 .products-desc {
     font-size: 14px;
+    margin-bottom: 1rem;
 }
 
 .footer-top {
